@@ -3,7 +3,10 @@
   --teal: #0f7173;
   --light: #e7ecef;
   --dark: #272932;
-  --camel: #d8a47f;
+  --camel: hsl(25, 53%, 67%);
+  --dark-charcoal: #333333;
+  --dark-grey: #111111;
+  --medium-grey: #bbbbbb;
   --google-grey-200: rgb(232, 234, 237);
 }
 
@@ -22,6 +25,47 @@ p {
 body {
   background-color: var(--light);
   font-family: poppins;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: var(--dark-charcoal);
+  width: 100%;
+  position: static;
+  top: 0;
+}
+
+li {
+  float: left;
+  border-right: 1px solid var(--medium-grey);
+}
+
+li:last-child {
+  border-right: none;
+}
+
+a {
+  display: block;
+  padding: 8px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: var(--dark-grey);
+}
+
+li input {
+  display: block;
+  margin: 14px 16px;
 }
 
 .card {
@@ -63,6 +107,9 @@ div.card-container {
 @media screen and (max-width: 400px) {
   p {
     display: none;
+  }
+  .navbar {
+    flex-wrap: wrap;
   }
 }
 
