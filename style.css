@@ -6,6 +6,10 @@
   --camel: #d8a47f;
 }
 
+html {
+  font-size: 100%; // base size 100% usually means 16px
+}
+
 body {
   background-color: var(--light);
 }
