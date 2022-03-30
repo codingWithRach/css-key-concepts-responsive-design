@@ -10,6 +10,10 @@ html {
   font-size: 100%; // base size 100% usually means 16px
 }
 
+h1 {
+  font-size: 2.25rem;
+}
+
 body {
   background-color: var(--light);
 }
