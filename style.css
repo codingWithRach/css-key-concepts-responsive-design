@@ -4,6 +4,7 @@
   --light: #e7ecef;
   --dark: #272932;
   --camel: #d8a47f;
+  --google-grey-200: rgb(232, 234, 237);
 }
 
 html {
@@ -57,5 +58,12 @@ div.card-container {
 @media screen and (max-width: 400px) {
   p {
     display: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: var(--google-grey-200);
+    background-color: var(--dark);
   }
 }
