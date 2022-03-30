@@ -24,7 +24,7 @@ p {
 
 body {
   background-color: var(--light);
-  font-family: poppins;
+  font-family: poppins, sans-serif;
 }
 
 ul {
