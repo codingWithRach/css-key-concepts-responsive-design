@@ -108,6 +108,15 @@ div.card-container {
   #cat-ipsum {
     display: none;
   }
+  .species {
+    display: none;
+  }
+  .fav-foods {
+    display: none;
+  }
+  .birth-year {
+    display: none;
+  }
   .navbar {
     flex-wrap: wrap;
   }
