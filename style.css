@@ -27,37 +27,6 @@ body {
   font-family: poppins, sans-serif;
 }
 
-li {
-  float: left;
-  border-right: 1px solid var(--medium-grey);
-}
-
-li:last-child {
-  border-right: none;
-}
-
-a {
-  display: block;
-  padding: 8px;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: var(--dark-grey);
-}
-
-li input {
-  display: block;
-  margin: 14px 16px;
-}
-
 img {
   width: 250px;
 }
@@ -76,6 +45,32 @@ img {
   width: 100%;
   position: static;
   top: 0;
+}
+
+.navbar__item {
+  float: left;
+  border-right: 1px solid var(--medium-grey);
+}
+
+.navbar__item:last-child {
+  border-right: none;
+}
+
+.navbar__link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar__link:hover {
+  background-color: var(--dark-grey);
+}
+
+.input_search {
+  display: block;
+  margin: 14px 16px;
 }
 
 div.card-container {
@@ -117,7 +112,7 @@ div.card-container {
     padding: 4px;
     font-size: 0.75rem;
   }
-  li a {
+  .navbar__link {
     padding: 7px 8px;
   }
 }
