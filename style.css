@@ -32,7 +32,7 @@ ul {
   margin: 0;
   padding: 0;
   background-color: var(--dark-charcoal);
-  width: 100%;
+  width: 95%;
   position: static;
   top: 0;
 }
@@ -104,12 +104,19 @@ div.card-container {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   p {
     display: none;
   }
   .navbar {
     flex-wrap: wrap;
+  }
+  a {
+    padding: 4px;
+    font-size: 0.75rem;
+  }
+  li a {
+    padding: 7px 8px;
   }
 }
 
