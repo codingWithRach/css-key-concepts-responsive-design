@@ -27,16 +27,6 @@ body {
   font-family: poppins, sans-serif;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: var(--dark-charcoal);
-  width: 100%;
-  position: static;
-  top: 0;
-}
-
 li {
   float: left;
   border-right: 1px solid var(--medium-grey);
@@ -79,10 +69,13 @@ img {
 
 .navbar {
   display: flex;
-}
-
-.navbar__Items {
-  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: var(--dark-charcoal);
+  width: 100%;
+  position: static;
+  top: 0;
 }
 
 div.card-container {
