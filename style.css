@@ -105,15 +105,9 @@ div.card-container {
 }
 
 @media screen and (max-width: 500px) {
-  #cat-ipsum {
-    display: none;
-  }
-  .species {
-    display: none;
-  }
-  .fav-foods {
-    display: none;
-  }
+  #cat-ipsum,
+  .species,
+  .fav-foods,
   .birth-year {
     display: none;
   }
