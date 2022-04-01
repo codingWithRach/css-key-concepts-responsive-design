@@ -19,7 +19,7 @@ h1 {
 }
 
 p {
-  font-size: 0.75rem;
+  font-size: 1rem;
 }
 
 body {
@@ -32,8 +32,8 @@ img {
 }
 
 .card {
-  padding: 10px;
-  margin: 10px;
+  padding: 0.5rem;
+  margin: 0.5rem;
 }
 
 .navbar {
@@ -49,7 +49,7 @@ img {
 
 .navbar__item {
   float: left;
-  border-right: 1px solid var(--medium-grey);
+  border-right: 0.05rem solid var(--medium-grey);
 }
 
 .navbar__item:last-child {
@@ -60,7 +60,7 @@ img {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 0.75rem;
   text-decoration: none;
 }
 
@@ -70,7 +70,7 @@ img {
 
 .input_search {
   display: block;
-  margin: 14px 16px;
+  margin: 0.75rem;
 }
 
 div.card-container {
@@ -80,25 +80,16 @@ div.card-container {
 
 /* Media Queries  */
 
-@media screen and (min-width: 1000px) {
+@media screen and (max-width: 600px) {
   h1 {
-    font-size: 5rem;
-  }
-  p {
-    font-size: 2.5rem;
-  }
-}
-
-@media screen and (min-width: 700px) {
-  h1 {
-    font-size: 4rem;
-  }
-  p {
     font-size: 1.5rem;
   }
-}
-
-@media screen and (max-width: 600px) {
+  h2 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.75rem;
+  }
   .input_search {
     display: none;
   }
@@ -115,11 +106,11 @@ div.card-container {
     flex-wrap: wrap;
   }
   a {
-    padding: 4px;
+    padding: 0.5rem;
     font-size: 0.75rem;
   }
   .navbar__link {
-    padding: 7px 8px;
+    padding: 0.5rem;
   }
 }
 
