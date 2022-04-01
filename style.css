@@ -78,6 +78,8 @@ div.card-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  width: 60%;
+  margin: auto;
 }
 
 /* Media Queries  */
@@ -94,6 +96,9 @@ div.card-container {
   }
   .input_search {
     display: none;
+  }
+  div.card-container {
+    width: 80%;
   }
 }
 
@@ -113,6 +118,9 @@ div.card-container {
   }
   .navbar__link {
     padding: 0.5rem;
+  }
+  div.card-container {
+    width: 100%;
   }
 }
 
